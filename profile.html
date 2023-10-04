@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Витамин Онлайн - широкий вибір біологічних добавок.">
+	<link rel="stylesheet" href="css/profile.min.css?_v=20231004234430">
+	<title>Profile</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+  <div class="header__container">
+    <div class="header__menu menu">
+      <hr class="line menu__line">
+      <div class="menu__icon">
+        <span></span>
+      </div>
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item menu__shop">Shop <img class="menu__shop-img" src="images/arrow.svg" alt="arrow">
+            <ul class="menu__shop-list">
+              <li class="menu__shop-arrow">
+                <img src="images/Back-arrow.svg" alt="arrow-back">
+                Shop
+              </li>
+              <hr class="line menu__shop-line">
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">All categories</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Vitamins & Dietary Supplements</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Weight Loss</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Minerals</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Antioxidants</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Probiotics</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Pain Relief</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link">Prenatal Vitamins</a></li>
+              <li class="menu__shop-item"><a href="product.html" class="menu__link sale">Sale%</a></li>
+              <hr class="line menu__shop-subline">
+              <li class="menu__shop-title">Don’t know what vitamins your body needs?</li>
+              <li class="menu__shop-text">
+                Answer a few simple questions and automatically
+                get a personalazed list of vitamins in minutes
+              </li>
+              <li class="menu__shop-item"><a href="#" class="menu__shop-link">Take the quiz</a></li>
+            </ul>
+
+          </li>
+          <li class="menu__item menu__info">Information <img class="menu__info-img" src="images/arrow.svg" alt="arrow">
+            <ul class="menu__info-list">
+              <li class="menu__info-arrow">
+                <img src="images/Back-arrow.svg" alt="arrow-back">
+                Information
+              </li>
+              <hr class="line menu__info-line">
+              <li class="menu__info-item"><a href="textTemplate.html" class="menu__link">Subscription Cycle & Billing</a></li>
+              <li class="menu__info-item"><a href="textTemplate.html" class="menu__link">Terms & Conditions</a></li>
+              <li class="menu__info-item"><a href="textTemplate.html" class="menu__link">Privacy Policy</a></li>
+              <li class="menu__info-item"><a href="textTemplate.html" class="menu__link">Shipping & Delivery</a></li>
+              <li class="menu__info-item"><a href="textTemplate.html" class="menu__link">Return Policy</a></li>
+            </ul>
+          </li>
+          <li class="menu__item"><a class="menu__link-quiz" href="#">Take the quiz</a></li>
+          <hr class="line menu__subline">
+          <li class="menu__item"><a class="menu__mail" href="mailto:support@medstogo.com">support@medstogo.com</a></li>
+          <li class="menu__item menu__name">© 2020 Vitamins.com / All rights reserved</li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="header__logo">
+      <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+    </div>
+    <div class="header__row">
+      <div class="header__row-profile">
+        <a class="header__row-profile-link" href="sign-in.html"><img src="images/Profile.svg" alt="Profile"></a>
+      </div>
+      <div class="header__row-basket">
+        <a class="header__row-basket-link" href="#">
+          <img src="images/basket.svg" alt="Basket">
+          <span class="header__row-basket-circle" id="circle"></span>
+        </a>
+      </div>
+      <div class="header__row-quiz">
+        <a class="button header__row-quiz-link" href="quiz.html">Take the quiz</a>
+      </div>
+      <p></p>
+    </div>
+  </div>
+</header>
+      <div class="basket">
+   <div class="basket__row">
+      <h2 class="title basket__title">Cart</h2>
+      <div class="basket__close"><img src="images/closeBasket.svg" alt="closeBasket"></div>
+   </div>
+   <div class="line basket__line"></div>
+   <div class="basket__content">
+   </div>
+   <div class="basket__item">
+      <div class="basket__item-block">
+         <div class="basket__item-img">
+            <img src="images/basketUnion.svg" alt="icon">
+         </div>
+         <div class="text basket__item-text">Your cart is empty</div>
+      </div>
+
+   </div>
+   <h3 class="text basket__not-product">Your cart is empty</h3>
+   <div class="basket__check">
+      <button class="button basket__price-btn">Check Out<span>•</span><span class="all-price"></span></button>
+   </div>
+</div>
+      <main class="page">
+         <section class="page profile">
+            <div class="line profile__line"></div>
+            <div class="profile__container">
+               <aside class="profile__menu">
+                  <div class="profile__menu-selected">
+                     <div class="profile__menu-current">Subscriptions</div>
+                     <div class="profile__menu-arrow">
+                        <img src="images/product/cardMenuArrow.svg" alt="arrow">
+                     </div>
+                  </div>
+
+                  <nav class="profile__menu-body">
+                     <ul class="profile__menu-list">
+                        <li class="profile__menu-item active">Subscriptions</li>
+                        <li class="profile__menu-item">Orders</li>
+                        <li class="profile__menu-item">Account Overview</li>
+                        <li class="profile__menu-item">Payment methods</li>
+                        <li class="profile__menu-item">Change Password</li>
+                        <li class="profile__menu-item" id="sign-out">Sign out</li>
+                     </ul>
+                  </nav>
+               </aside>
+               <div class="profile__content">
+                  <div class="hide profile__subscriptions subscriptions">
+                     <div class="subscriptions__content">
+                        <h2 class="title subscriptions__title">Subscriptions</h2>
+                     </div>
+                  </div>
+                  <div class="hide orders profile__orders">
+                     <h2 class="title subscriptions__title">Orders</h2>
+                     <div class="orders__content">
+                        <div class="orders__row">
+                           <p class="text orders__data"></p>
+                           <p class="text orders__text">Shipping</p>
+                        </div>
+                        <p class="title orders__number">No 67824-</p>
+                        <div class="orders__column"></div>
+
+
+
+                        <hr class="line orders__line">
+                        <div class="orders__subrow">
+                           <div class="orders__subrow-item">
+                              <p class="text orders__subrow-text">Order amount:</p>
+                              <p class="orders__subrow-price"></p>
+                           </div>
+                           <div class="orders__btn">
+                              <button class="button orders__btn-add">Add to cart</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="hide account profile__account">
+                     <div class="account__content">
+                        <div class="account__row">
+                           <h2 class="title account__title">Account Overview</h2>
+                           <h3 class="button account__name" id="customer"></h3>
+                        </div>
+
+                        <form class="account__form">
+                           <div class="account__form-row">
+                              <div class="mw account__form-mane">
+                                 <label class="text account__form-label">First Name</label>
+                                 <input class="inp account__form-inp-name" type="text">
+                              </div>
+                              <div class="mw account__form-last-mane">
+                                 <label class="text account__form-label">Last Name</label>
+                                 <input class="inp account__form-inp-name" type="text">
+                              </div>
+                           </div>
+
+                           <div class="account__form-row">
+                              <div class="mw account__form-address">
+                                 <label class="text account__form-label">Address Line 1</label>
+                                 <input class="inp account__form-inp-address" type="text">
+                              </div>
+                              <div class="mw account__form-add-address">
+                                 <label class="text account__form-label">Address Line 2</label>
+                                 <input class="inp account__form-inp-address" type="text">
+                              </div>
+
+
+                           </div>
+
+                           <div class="account__form-row">
+                              <div class="mw account__form-city">
+                                 <label class="text account__form-label">City</label>
+                                 <input class="inp account__form-inp-name" type="text">
+                              </div>
+                              <div class="mw account__form-add-row">
+
+                                 <div class="account__form-state">
+                                    <label class="text account__form-label">State / Province</label>
+                                    <div class="account__form-select">
+                                       <span class="account__form-current">NY</span>
+                                       <div class="account__form-arrow">
+                                          <img src="images/Back_arrow1.svg" alt="arrow-down" title="arrow-down">
+                                       </div>
+                                       <ul class="account__form-list">
+                                          <li class="account__form-item">NY</li>
+                                          <li class="account__form-item">Волинська область</li>
+                                          <li class="account__form-item">Одеська область</li>
+                                          <li class="account__form-item">Львівська область</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+
+                                 <div class="account__form-code">
+                                    <label class="text account__form-label">ZIP / Postal Code</label>
+                                    <input class="inp account__form-inp-number" type="text">
+                                 </div>
+                              </div>
+
+
+                           </div>
+
+                           <div class="account__form-row">
+                              <div class="mw account__form-email">
+                                 <label class="text account__form-label">Email</label>
+                                 <input class="inp account__form-inp-email" type="emai">
+                              </div>
+                              <div class="mw account__form-number">
+                                 <label class="text account__form-label">Phone Number</label>
+                                 <input class="inp account__form-inp-number" type="text">
+                              </div>
+
+
+                           </div>
+                           <div class="mw account__form-file">
+                              <label class="text account__form-file-label" for="inp-file">Upload</label>
+                              <input class="inp account__form-file-inp" type="file" id="inp-file" accept="application/pdf">
+                              <p class="text account__form-label account__form-file-text">Wholesale purchase permission
+                              </p>
+                           </div>
+                           <button class="button account__form-btn">Save</button>
+
+                        </form>
+
+
+                     </div>
+                  </div>
+                  <div class="hide payment profile__payment">
+                     <div class="payment__content">
+                        <h2 class="title account__title">Payment methods</h2>
+                        <div class="payment__card">
+                           <picture class="payment__card-img">
+                              
+                              <img src="images/credit-card.png" alt="credit-card" loading="lazy">
+                           </picture>
+                           <div class="payment__card-number">
+                              <label class="payment__card-label">Card Number</label>
+                              <input class="payment__card-inp number" type="text" placeholder="XXXX XXXX XXXX XXXX">
+                           </div>
+                           <div class="payment__card-item">
+
+                              <div class="payment__card-data">
+                                 <label class="payment__card-label">Expiration</label>
+                                 <input class="payment__card-inp data" type="text" placeholder="MM/YY">
+                              </div>
+                              <div class="payment__card-cvc">
+                                 <label class="payment__card-label">CVC</label>
+                                 <input class="payment__card-inp cvc" type="password" placeholder="CVC">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="payment__btn">
+                           <button class="button account__form-btn">Save</button>
+                        </div>
+
+                     </div>
+
+                  </div>
+                  <div class="hide password profile__password">
+                     <div class="password__content">
+                        <h2 class="title account__title">Change Password</h2>
+                        <form class="mw password__form">
+                           <label class="text account__form-label">Current Password</label>
+                           <input class="inp password__form-password old-password" type="password">
+                           <label class="text account__form-label">New Password</label>
+                           <input class="inp password__form-password new-password" type="password">
+                           <label class="text account__form-label">Confirm New Password</label>
+                           <input class="inp password__form-password comfirm-password" type="password">
+                        </form>
+                        <div class="password__btn">
+                           <button class="button account__form-btn save">Save</button>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+
+
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+   <div class="footer__container">
+      <div class="footer__item">
+         <div class="footer__logo">
+            <a href="index.html"><img src="images/footer-logo.svg" alt="footer__logo"></a>
+         </div>
+         <p class="footer__info">© 2020 Vitamins.com / All rights reserved</p>
+      </div>
+      <div class="footer__menu">
+         <nav class="footer__menu-body">
+            <ul class="footer__menu-shop">
+               Shop
+               <li class="footer__menu-shop-item">
+                  <ul class="footer__menu-sublist">
+                     <li class="footer__menu-subitem">
+                        <a class="footer__menu-link link" href="#">Vitamins & Dietary Supplements</a>
+                     </li>
+                     <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Weight Loss</a></li>
+                     <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Minerals</a></li>
+                     <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Antioxidants</a></li>
+                  </ul>
+                  <ul class="footer__menu-sublist">
+                     <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Probiotics</a></li>
+                     <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Pain Relief</a></li>
+                     <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Prenatal Vitamins</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <ul class="footer__menu-info">
+               Information
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Terms & Conditions</a>
+               </li>
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Privacy Policy</a></li>
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Shipping & Delivery</a>
+               </li>
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Subscription Cycle &
+                     Billing</a></li>
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#">Return Policy</a></li>
+            </ul>
+            <ul class="footer__menu-mess">
+               Contact
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="mailto:support@medstogo.com">support@medstogo.com</a></li>
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#"><img src="images/main/facebook.svg" alt="Facebook" loading="lazy">Facebook</a></li>
+               <li class="footer__menu-subitem"><a class="footer__menu-link" href="#"><img src="images/main/instagram.svg" alt="Instagram" loading="lazy">Instagram</a></li>
+           
+            </ul>
+         </nav>
+      </div>
+      <p class="footer__sub-info">© 2020 Vitamins.com / All rights reserved</p>
+      
+
+   </div>
+</footer>
+   </div>
+   <script src="js/basket.min.js?_v=20231004234430"></script>
+   <script src="js/profile.min.js?_v=20231004234430"></script>
+</body>
+
+</html>
